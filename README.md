@@ -47,4 +47,19 @@ Widget Header
 Widget Footer
 ```
 
-If you comment out the import of synthetic shadow in `src/index.js`, it works correctly, so the issue seems to be coming from synthetic.
+If you comment out the import of synthetic shadow in `src/index.js`, it works correctly:
+
+```js
+// import "@lwc/synthetic-shadow";
+import Widget from "my/widget";
+
+customElements.define("my-widget", Widget.CustomElementConstructor);
+```
+
+results in:
+
+```
+Widget Header
+body from slot
+Widget Footer
+```
