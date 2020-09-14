@@ -1,6 +1,6 @@
 # LWC Test
 
-Barebones LWC/Rollup example where the slotted content is not rendering correct.
+Barebones LWC example where slotted content is not rendering correctly with synthetic shadow enabled.
 
 ## Running
 
