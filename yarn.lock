@@ -639,7 +639,7 @@
     postcss-selector-parser "~6.0.2"
     postcss-value-parser "~4.1.0"
 
-"@lwc/synthetic-shadow@1.7.14":
+"@lwc/synthetic-shadow@1.7.14", "@lwc/synthetic-shadow@^1.7.14":
   version "1.7.14"
   resolved "https://registry.yarnpkg.com/@lwc/synthetic-shadow/-/synthetic-shadow-1.7.14.tgz#e0812ea0b7fff7d43d089109cb0246048f96be08"
   integrity sha512-m1Bnw42R+Rnyh2xIDQ/UJ7l5Se7sHBujc3x8A9oEfEdipgx4+ac3OU0E1Qz1XGABh84f6+Ik8VX/eR3g0uaBfw==

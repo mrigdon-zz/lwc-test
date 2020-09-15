@@ -10,6 +10,7 @@
     "start": "yarn build && yarn serve"
   },
   "dependencies": {
+    "@lwc/synthetic-shadow": "^1.7.14",
     "lwc": "^1.7.14"
   },
   "devDependencies": {
