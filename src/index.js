@@ -1,4 +1,8 @@
 import "@lwc/synthetic-shadow";
-import Widget from "my/widget";
+import Container from "my/container";
 
-customElements.define("my-widget", Widget.CustomElementConstructor);
+// eslint-disable-next-line @lwc/lwc/no-document-query
+const container = document.getElementById("main");
+const myComponent = document.createElement('my-container');
+customElements.define('my-container', Container.CustomElementConstructor);
+container.appendChild(myComponent);
